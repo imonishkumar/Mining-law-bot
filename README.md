@@ -69,4 +69,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to the legal and mining communities for their insights and contributions.
 
 Feel free to contribute, open issues, or suggest improvements! For legal advice, always consult with a qualified professional.
-```
