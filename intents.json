@@ -1,4 +1,4 @@
-{
+  {
   "intents": [
     {
       "tag": "greeting",
@@ -7,7 +7,9 @@
         "Hey",
         "Is anyone there?",
         "Hello",
-        "Good day","hii", "hey baby"
+        "Good day",
+        "hii", 
+        "hey baby"
       ],
       "responses" : ["Hi there, what can I do for you"]
     },
@@ -23,46 +25,58 @@
     },
     {
       "tag": "name",
-      "patterns": ["What is your name",
-        "May I know your name",
-        "tell me your name",
-        "Do you have any name"
-      ],
+      "patterns": ["What is your name", "May I know your name", "tell me your name", "Do you have any name"],
       "responses" : ["I don't have any particular name, I am just a chatbot"]
     },
     {
       "tag": "men_rights",
-      "patterns": [
-        "What laws are there to protect men from women?",
-        "What regulations exist to safeguard men from women?",
-        "How men can be protected from women?"
-      ],
-      "responses": [
-        "There are no special laws to protect men from women"
-      ]
+      "patterns": ["What laws are there to protect men from women?", "What regulations exist to safeguard men from women?", "How men can be protected from women?"],
+      "responses": ["There are no special laws to protect men from women"]
     },
     {
       "tag": "sex_abuse",
-      "patterns": [
-        "I have been sexually abused",
-        "Laws related to sex abuse",
-        "I have been raped",
-        "A girl has been raped by men"
-      ],
+      "patterns": ["I have been sexually abused", "Laws related to sex abuse", "I have been raped", "A girl has been raped by men"],
       "responses" : ["By the article 354-A, Sex abuse is punished with rigorous imprisonment for a term which may extend to three years, or with fine, or with both."]
     },
     {
       "tag": "untouchability",
-      "patterns": [
-        "I have not allowed to enter into the temple",
-        "laws for untouchability",
-        "article for untouchability",
-        "scheduled tribes and scheduled caste not allowed to enter into the temple.",
-        "scheduled tribes and scheduled caste not allowed to enter into public places.",
-        "SC and ST are not allowed to enter into the temple.",
-        "SC and ST were denied to enter into the temple."
-      ],
+      "patterns": ["I have not allowed to enter into the temple", "laws for untouchability", "article for untouchability", "scheduled tribes and scheduled caste not allowed to enter into the temple.", "scheduled tribes and scheduled caste not allowed to enter into public places.", "SC and ST are not allowed to enter into the temple.", "SC and ST were denied to enter into the temple."],
       "responses" : ["Untouchability is a crime and it is punishable with 6 months imprisonment, with a fine of ₹500."]
+    },
+    {
+      "tag": "domestic_violence",
+      "patterns": ["What are the laws against domestic violence?", "How can I report domestic violence?", "What punishment is there for domestic violence?", "Laws to protect women from domestic abuse"],
+      "responses": ["The Protection of Women from Domestic Violence Act, 2005, provides protection to women against physical, emotional, sexual, and economic abuse within a household. A complaint can be filed with the police, magistrate, or protection officers."]
+    },
+    {
+      "tag": "cyber_crime",
+      "patterns": ["What is cybercrime?", "How to report cybercrime?", "Laws to protect from cybercrime?", "What is the punishment for hacking?"],
+      "responses": ["Cybercrime is any illegal activity conducted using the internet or digital devices. Under the Information Technology Act, 2000, hacking, identity theft, and online harassment are punishable with imprisonment of up to 3 years or more, along with fines."]
+    },
+    {
+      "tag": "child_labour",
+      "patterns": ["What are the laws for child labour?", "Can children be employed in work?", "What is the punishment for employing child labour?", "Child labour laws in India"],
+      "responses": ["The Child Labour (Prohibition and Regulation) Act, 1986, prohibits the employment of children below 14 years in any hazardous occupation or process. Violators face imprisonment of up to 2 years or a fine of ₹50,000 or both."]
+    },
+    {
+      "tag": "right_to_education",
+      "patterns": ["What is the right to education?", "Which law provides free education?", "Laws for free education in India"],
+      "responses": ["The Right to Education (RTE) Act, 2009, ensures free and compulsory education for children between 6 and 14 years of age in India. It mandates that 25% of seats in private schools be reserved for children from economically weaker sections."]
+    },
+    {
+      "tag": "right_to_equality",
+      "patterns": ["What is the right to equality?", "Which law ensures equality for all?", "Can people be discriminated based on caste or religion?"],
+      "responses": ["The Right to Equality is guaranteed under Articles 14 to 18 of the Indian Constitution. It ensures that every individual is treated equally before the law and prohibits discrimination based on religion, race, caste, sex, or place of birth."]
+    },
+    {
+      "tag": "right_to_information",
+      "patterns": ["What is the Right to Information?", "How can I file an RTI?", "What is the RTI Act?"],
+      "responses": ["The Right to Information (RTI) Act, 2005, allows citizens to request information from any public authority. It promotes transparency and accountability in the government. Applications can be submitted online or in person."]
+    },
+    {
+      "tag": "consumer_rights",
+      "patterns": ["What are my consumer rights?", "Can I file a complaint against a seller?", "Consumer Protection Act in India"],
+      "responses": ["The Consumer Protection Act, 2019, protects consumers from unfair trade practices, defective products, and service deficiencies. Consumers can file complaints with the Consumer Disputes Redressal Commission at the district, state, or national level."]
     }
   ]
 }
