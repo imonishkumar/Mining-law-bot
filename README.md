@@ -1,4 +1,3 @@
-
 # Industrial Mining Law Bot
 
 Welcome to the Industrial Mining Law Bot repository! This project provides a chatbot designed to assist with legal inquiries related to industrial mining. The chatbot is built using PyTorch for neural network modeling, NLTK for natural language processing, and is trained on a dataset of intents specific to industrial mining laws.
@@ -68,4 +67,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Special thanks to the legal and mining communities for their insights and contributions.
 
-Feel free to contribute, open issues, or suggest improvements! For legal advice, always consult with a qualified professional.
+Feel free to contribute, open issues, or suggest improvements! For legal advice, always consult with a qualified professional monishkumarpecai@gmail.com
